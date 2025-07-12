@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql" // or "postgresql" if using Neon/Supabase
+  url      = env("DATABASE_URL")
+}
+
+model Book {
+  id                Int     @id @default(autoincrement())
+  bookName          String
+  bookType          String
+  publicationYear   String
+  price             Float
+  email             String
+  phoneNumber       String
+  location          String
+  address           String
+  course            String
+  publication       String
+  createdAt         DateTime @default(now())
+}
