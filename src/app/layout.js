@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
           </div>
         </header>
 
-        <main style={{ padding: '20px' }}>
+        <main style={{ padding: '21px' }}>
           {children}
         </main>
       </body>

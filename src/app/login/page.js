@@ -13,7 +13,7 @@ export default function LoginPage() {
       });
       window.google?.accounts.id.renderButton(
         document.getElementById('googleSignInDiv'),
-        { theme: 'outline', size: 'large' ,width: 500 }
+        { theme: 'outline', size: 'large' ,width: 300 }
       );
     };
     document.body.appendChild(script);

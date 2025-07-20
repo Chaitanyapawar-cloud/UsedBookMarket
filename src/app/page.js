@@ -5,7 +5,7 @@ export default function HomePage() {
 
     <main>
    
-      <div style={{ display: 'flex', gap: '10px', justifyContent: 'center',padding: '70px 10px' }}>
+      <div style={{ display: 'flex', gap: '20px', justifyContent: 'center',padding: '70px 10px',flexWrap: 'wrap'}}>
          <LinkButton href="/books">Buyer: Buy Books</LinkButton>
       
         <LinkButton href="/login">Seller: Sell Books</LinkButton>
