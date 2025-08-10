@@ -149,7 +149,7 @@ export default function BooksPage() {
           <div style={modalOverlayStyle} onClick={() => setSelectedBook(null)}>
             <div style={modalContentStyle} onClick={(e) => e.stopPropagation()}>
               <h3>{selectedBook.bookName}</h3>
-              <p><strong>Publication:</strong> ₹{selectedBook.publication}</p>
+              <p><strong>Publication:</strong> {selectedBook.publication}</p>
               <p><strong>Price:</strong> ₹{selectedBook.price}</p>
               <p><strong>State:</strong> {selectedBook.state}</p>
               <p><strong>Address:</strong> {selectedBook.address}</p>

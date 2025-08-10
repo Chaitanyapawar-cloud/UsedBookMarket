@@ -14,14 +14,34 @@ export default function HomePage() {
        <div
         style={{
           display: 'flex',
-          gap: '15px',
-          justifyContent: 'center',
-          padding: '5px 10px',
-          flexWrap: 'wrap'
+          flexDirection: 'column',
+          gap: '30px',
+          alignItems: 'center',
+          padding: '5px 10px'
         }}
       >
+         <img
+          src="images/White Blue Simple Be Good Phone Wallpaper.png"
+          alt="Buy Books"
+          style={{
+            width: '300px',
+            height: '500px',
+            objectFit: 'fill',
+            borderRadius: '8px'
+          }}
+        />
         <img
-          src="/images/freepik__the-style-is-modern-and-it-is-a-detailed-illustrat__91791.png"
+          src="images/Life Savers.png"
+          alt="Buy Books"
+          style={{
+            width: '300px',
+            height: '300px',
+            objectFit: 'fill',
+            borderRadius: '8px'
+          }}
+        />
+           <img
+          src="images/freepik__the-style-is-modern-and-it-is-a-detailed-illustrat__91789.png"
           alt="Buy Books"
           style={{
             width: '300px',

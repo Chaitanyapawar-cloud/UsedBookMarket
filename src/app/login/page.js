@@ -55,13 +55,13 @@ export default function LoginPage() {
         }}
       >
         <img
-          src="images/freepik__the-style-is-candid-image-photography-with-natural__91790.png"
+          src="images/Reuse Books1.png"
           alt="Buy Books"
           style={{
             width: '300px',
             height: '280px',
             objectFit: 'fill',
-            borderRadius: '3px'
+            borderRadius: '5px'
           }}
         />
         
