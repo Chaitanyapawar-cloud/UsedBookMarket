@@ -43,8 +43,31 @@ export default function LoginPage() {
     >
       <h1 style={{ fontSize: '28px', marginBottom: '24px' }}>Seller Login</h1>
 
-      <div id="googleSignInDiv"></div>
+      <div id="googleSignInDiv"></div><br></br>
+
+      <div
+        style={{
+          display: 'flex',
+          gap: '15px',
+          justifyContent: 'center',
+          padding: '15px 10px',
+          flexWrap: 'wrap'
+        }}
+      >
+        <img
+          src="images/freepik__the-style-is-candid-image-photography-with-natural__91790.png"
+          alt="Buy Books"
+          style={{
+            width: '300px',
+            height: '280px',
+            objectFit: 'fill',
+            borderRadius: '3px'
+          }}
+        />
+        
+      </div>
     </div>
+    
 
   );
 }

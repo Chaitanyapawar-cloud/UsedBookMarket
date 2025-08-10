@@ -5,7 +5,7 @@ export const initialBookForm = {
   price: 0,
   email: '',
   phoneNumber: '',
-  location: '',
+  state: '',
   address: '',
   course: '',
   publication: ''

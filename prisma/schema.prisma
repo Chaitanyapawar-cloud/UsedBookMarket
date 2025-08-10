@@ -15,7 +15,7 @@ model Book {
   price             Float
   email             String
   phoneNumber       String
-  location          String
+  state             String
   address           String
   course            String
   publication       String
